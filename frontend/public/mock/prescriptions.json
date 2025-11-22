@@ -1,0 +1,7 @@
+[
+  {"id":1, "patient_id":1, "patient_name":"Alice", "physician_id":1, "physician_name":"Dr. Smith", "drug_id":1, "drug_name":"Amoxicillin", "quantity":20, "sig":"1 tab BID", "prescribed_at":"2025-01-18T10:00:00Z"},
+  {"id":2, "patient_id":1, "patient_name":"Alice", "physician_id":1, "physician_name":"Dr. Smith", "drug_id":2, "drug_name":"Ibuprofen", "quantity":30, "sig":"PRN pain", "prescribed_at":"2025-01-19T12:00:00Z"},
+  {"id":3, "patient_id":2, "patient_name":"Bob", "physician_id":2, "physician_name":"Dr. Jones", "drug_id":3, "drug_name":"Metformin", "quantity":60, "sig":"500mg BID", "prescribed_at":"2025-01-20T09:00:00Z"},
+  {"id":4, "patient_id":2, "patient_name":"Bob", "physician_id":1, "physician_name":"Dr. Smith", "drug_id":2, "drug_name":"Ibuprofen", "quantity":15, "sig":"PRN pain", "prescribed_at":"2025-01-21T14:00:00Z"},
+  {"id":5, "patient_id":1, "patient_name":"Alice", "physician_id":1, "physician_name":"Dr. Smith", "drug_id":3, "drug_name":"Metformin", "quantity":10, "sig":"500mg BID", "prescribed_at":"2025-01-22T08:00:00Z"}
+]
