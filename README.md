@@ -5,7 +5,7 @@ Monorepo with:
 - frontend/: React app (always calls backend API)
 - db/: Postgres schema and seed
 
-Assignment 3 (DevOps) — Quick Start
+DevOps - Docker — Quick Start
 1) Start stack (uses the provided .env):
    docker compose --env-file .env up --build -d
 
@@ -20,10 +20,7 @@ Assignment 3 (DevOps) — Quick Start
 Notes
 - Compose brings up Postgres, API, and Web:
   - DB initialization: only db/schema.sql and db/seed.sql are mounted into /docker-entrypoint-initdb.d and auto-apply on the first initialization of the data volume (standard Postgres behavior). To re-apply seed, reset the volume with `docker compose down -v`.
-  - Do NOT commit real secrets. The committed .env is only for local development defaults; override locally if needed.
-
-Cleanup notes
-- Removed legacy db/migrate.sh and db/base_seed.sql as they were not used by docker-compose. The seed in db/seed.sql already covers base data for local development.
+  - The committed .env is only for local development defaults; override locally if needed.
 
 API endpoints (RBAC via headers)
 - POST /prescriptions
